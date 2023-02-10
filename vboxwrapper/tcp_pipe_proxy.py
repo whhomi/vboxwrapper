@@ -216,7 +216,7 @@ DONT = to_bytes([254])
 DO   = to_bytes([253])
 WONT = to_bytes([252])
 WILL = to_bytes([251])
-IAC_DOUBLED = to_bytes([IAC, IAC])
+IAC_DOUBLED = to_bytes([255, 255])
 
 SE  = to_bytes([240])  # Subnegotiation End
 NOP = to_bytes([241])  # No Operation
